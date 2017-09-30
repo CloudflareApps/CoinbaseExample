@@ -1,4 +1,4 @@
-# Example App
+# Coinbase Example App
 
 Download this app and replace our code to try out a coinbase based Cloudflare app.
 
