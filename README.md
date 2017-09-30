@@ -1,12 +1,10 @@
 # Example App
 
-Download this app and replace our code any time you want to build an Cloudflare app.
-
-_Looking to use the latest JavaScript and CSS features? Check out our [Webpack example app](https://github.com/CloudflareApps/ExampleWebpackApp)!_
+Download this app and replace our code to try out a coinbase based Cloudflare app.
 
 ## Setup
 
-Fork and clone the repo or <a href="https://github.com/CloudflareApps/ExampleApp/releases/latest" >download the latest release</a>.
+Fork and clone the repo.
 
 Install the optional developer dependencies with `npm install`
 
