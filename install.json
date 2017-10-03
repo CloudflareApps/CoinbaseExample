@@ -13,7 +13,7 @@
   },
   "hooks": [
     {
-      "endpoint": "http://your.service",
+      "endpoint": "https://your.service",
       "events": ["option-change:account"],
       "block": true,
       "authenticate": ["account"],
@@ -23,33 +23,25 @@
       }
     }
   ],
-  "preview": {
-    "handlers": [
-      {
-        "options": ["_default"],
-        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
-      }
-    ]
-  },
   "options": {
     "properties": {
-      "location": {
-        "title": "Message Location",
-        "description": "Where should the message appear?",
+      "account": {
+        "title": "Coinbase account",
         "order": 0,
+        "type": "object",
+        "format": "account",
+        "services": ["coinbase-wallet-display"]
+      },
+      "location": {
+        "title": "Bitcoin Balance Location",
+        "description": "Where should the balance appear?",
+        "order": 1,
         "type": "object",
         "format": "element",
         "default": {
           "selector": "body",
           "method": "prepend"
         }
-      },
-      "account": {
-        "title": "Coinbase account",
-        "order": 1,
-        "type": "object",
-        "format": "account",
-        "services": ["coinbase-wallet-display"]
       }
     }
   }

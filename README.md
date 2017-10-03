@@ -1,14 +1,10 @@
 # Coinbase Example App
 
-Download this app and replace our code to try out a coinbase based Cloudflare app.
-
-## Setup
-
-Fork and clone the repo.
-
-Install the optional developer dependencies with `npm install`
+_An example app illustrating the use of Coinbase's API and WebHooks._
 
 ## Usage
+
+Install the optional developer dependencies with `npm install`
 
 - `npm run lint` Checks JavaScript formatting and attempts to fix any errors.
 
